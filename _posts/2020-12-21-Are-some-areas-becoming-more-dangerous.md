@@ -1,11 +1,11 @@
 ---
-title: "Example: Embedding Folium charts"
-date: 2019-04-13
+title: "Are some areas becoming more dangerous"
+date: 2020-12-21
 published: true
-tags: [dataviz, folium]
-excerpt: "Embedding interactive Folium charts on static pages using Jekyll."
+tags: [dataviz, ml, folium]
+excerpt: "A machine learning analysis"
 folium-loader:
-  folium-chart-1: ["charts/foliumChart.html", "400"]
+  folium-chart-1: ["charts/foliumchi2020", "400"]
   folium-chart-2: ["charts/percent_no_internet.html", "400"]
 toc: true
 toc_sticky: true
