@@ -8,8 +8,8 @@ altair-loader:
   altair-chart-1: "charts/measlesAltair.json"
 hv-loader:
   hv-chart-1: "charts/chitrend_map.html"
-toc: true
-toc_sticky: true
+toc: false
+toc_sticky: false
 ---
 
 This post will show examples of embedding interactive charts produced using [Altair](https://altair-viz.github.io) and [Hvplot](https://hvplot.pyviz.org/).
