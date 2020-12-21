@@ -1,0 +1,91 @@
+
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+    
+      <meta charset="utf-8">
+      <title>nyfatal_chart</title>
+      
+      
+        
+          
+        <link rel="stylesheet" href="/static/extensions/panel/css/alerts.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/card.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/dataframe.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/json.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/markdown.css" type="text/css" />
+        <link rel="stylesheet" href="/static/extensions/panel/css/widgets.css" type="text/css" />
+        
+        
+          
+        <script type="text/javascript" src="https://cdn.bokeh.org/bokeh/release/bokeh-2.2.3.min.js" integrity="sha384-T2yuo9Oe71Cz/I4X9Ac5+gpEa5a8PpJCDlqKYO0CfAuEszu1JrXLl8YugMqYe3sM" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            Bokeh.set_log_level("info");
+        </script>
+        
+      
+      
+    
+  </head>
+  
+  
+  <body>
+    
+      
+        
+          
+          
+            
+              <div class="bk-root" id="909dab04-e540-4d5e-81ab-afe317fd1779" data-root-id="4396"></div>
+            
+          
+        
+      
+      
+        <script type="application/json" id="4557">
+          {"6f69673d-b02c-4416-bee5-ec2505a3f8e7":{"roots":{"references":[{"attributes":{"source":{"id":"4431"}},"id":"4438","type":"CDSView"},{"attributes":{},"id":"4418","type":"PanTool"},{"attributes":{"children":[{"id":"4397"},{"id":"4401"},{"id":"4459"}],"margin":[0,0,0,0],"name":"Row09010","tags":["embedded"]},"id":"4396","type":"Row"},{"attributes":{},"id":"4419","type":"WheelZoomTool"},{"attributes":{"fill_color":{"field":"Variable","transform":{"id":"4430"}},"top":{"field":"value"},"width":{"value":0.8},"x":{"field":"xoffsets"}},"id":"4434","type":"VBar"},{"attributes":{"axis_label":"","bounds":"auto","formatter":{"id":"4442"},"major_label_orientation":"horizontal","ticker":{"id":"4414"}},"id":"4413","type":"LinearAxis"},{"attributes":{},"id":"4417","type":"SaveTool"},{"attributes":{"axis":{"id":"4413"},"dimension":1,"grid_line_color":null,"ticker":null},"id":"4416","type":"Grid"},{"attributes":{},"id":"4432","type":"Selection"},{"attributes":{"below":[{"id":"4410"}],"center":[{"id":"4412"},{"id":"4416"}],"left":[{"id":"4413"}],"margin":[5,5,5,5],"min_border_bottom":10,"min_border_left":10,"min_border_right":10,"min_border_top":10,"plot_height":400,"plot_width":700,"renderers":[{"id":"4437"}],"sizing_mode":"fixed","title":{"id":"4402"},"toolbar":{"id":"4423"},"x_range":{"id":"4398"},"x_scale":{"id":"4406"},"y_range":{"id":"4399"},"y_scale":{"id":"4408"}},"id":"4401","subtype":"Figure","type":"Plot"},{"attributes":{"text":"","text_color":{"value":"black"},"text_font_size":{"value":"12pt"}},"id":"4402","type":"Title"},{"attributes":{"data":{"NUMBER_OF_PERSONS_KILLED":["0","1","2","0","1","2"],"Variable":["count2020","count2020","count2020","count2019","count2019","count2019"],"value":{"__ndarray__":"njWFKqfs7z9Xrv3zSo1iP6BHZOY19hA/wJncu9f27z9Si5az0NFRP3Vpfc3krf8+","dtype":"float64","order":"little","shape":[6]},"xoffsets":[["0","count2020"],["1","count2020"],["2","count2020"],["0","count2019"],["1","count2019"],["2","count2019"]]},"selected":{"id":"4432"},"selection_policy":{"id":"4449"}},"id":"4431","type":"ColumnDataSource"},{"attributes":{"factors":["count2020","count2019"],"palette":["#FDE725","#440154"]},"id":"4430","type":"CategoricalColorMapper"},{"attributes":{},"id":"4449","type":"UnionRenderers"},{"attributes":{},"id":"4408","type":"LinearScale"},{"attributes":{"axis":{"id":"4410"},"grid_line_color":null,"ticker":null},"id":"4412","type":"Grid"},{"attributes":{"overlay":{"id":"4422"}},"id":"4420","type":"BoxZoomTool"},{"attributes":{},"id":"4421","type":"ResetTool"},{"attributes":{"margin":[5,5,5,5],"name":"HSpacer09015","sizing_mode":"stretch_width"},"id":"4459","type":"Spacer"},{"attributes":{},"id":"4440","type":"CategoricalTickFormatter"},{"attributes":{"margin":[5,5,5,5],"name":"HSpacer09014","sizing_mode":"stretch_width"},"id":"4397","type":"Spacer"},{"attributes":{},"id":"4414","type":"BasicTicker"},{"attributes":{},"id":"4442","type":"BasicTickFormatter"},{"attributes":{"fill_alpha":{"value":0.2},"fill_color":{"field":"Variable","transform":{"id":"4430"}},"line_alpha":{"value":0.2},"top":{"field":"value"},"width":{"value":0.8},"x":{"field":"xoffsets"}},"id":"4436","type":"VBar"},{"attributes":{},"id":"4406","type":"CategoricalScale"},{"attributes":{"fill_alpha":{"value":0.1},"fill_color":{"field":"Variable","transform":{"id":"4430"}},"line_alpha":{"value":0.1},"top":{"field":"value"},"width":{"value":0.8},"x":{"field":"xoffsets"}},"id":"4435","type":"VBar"},{"attributes":{"active_drag":"auto","active_inspect":"auto","active_multi":null,"active_scroll":"auto","active_tap":"auto","tools":[{"id":"4400"},{"id":"4417"},{"id":"4418"},{"id":"4419"},{"id":"4420"},{"id":"4421"}]},"id":"4423","type":"Toolbar"},{"attributes":{"factors":[["0","count2019"],["0","count2020"],["1","count2019"],["1","count2020"],["2","count2019"],["2","count2020"]],"tags":[[["NUMBER OF PERSONS KILLED","NUMBER OF PERSONS KILLED",null],["Variable","Variable",null]]]},"id":"4398","type":"FactorRange"},{"attributes":{"axis_label":"NUMBER OF PERSONS KILLED, Variable","bounds":"auto","formatter":{"id":"4440"},"major_label_orientation":1.5707963267948966,"ticker":{"id":"4411"}},"id":"4410","type":"CategoricalAxis"},{"attributes":{},"id":"4411","type":"CategoricalTicker"},{"attributes":{"bottom_units":"screen","fill_alpha":0.5,"fill_color":"lightgrey","left_units":"screen","level":"overlay","line_alpha":1.0,"line_color":"black","line_dash":[4,4],"line_width":2,"right_units":"screen","top_units":"screen"},"id":"4422","type":"BoxAnnotation"},{"attributes":{"end":1.0987673622912562,"reset_end":1.0987673622912562,"reset_start":0.0,"tags":[[["value","value",null]]]},"id":"4399","type":"Range1d"},{"attributes":{"data_source":{"id":"4431"},"glyph":{"id":"4434"},"hover_glyph":null,"muted_glyph":{"id":"4436"},"nonselection_glyph":{"id":"4435"},"selection_glyph":null,"view":{"id":"4438"}},"id":"4437","type":"GlyphRenderer"},{"attributes":{"callback":null,"renderers":[{"id":"4437"}],"tags":["hv_created"],"tooltips":[["NUMBER OF PERSONS KILLED","@{NUMBER_OF_PERSONS_KILLED}"],["Variable","@{Variable}"],["value","@{value}"]]},"id":"4400","type":"HoverTool"}],"root_ids":["4396"]},"title":"Bokeh Application","version":"2.2.3"}}
+        </script>
+        <script type="text/javascript">
+          (function() {
+            var fn = function() {
+              Bokeh.safely(function() {
+                (function(root) {
+                  function embed_document(root) {
+                    
+                  var docs_json = document.getElementById('4557').textContent;
+                  var render_items = [{"docid":"6f69673d-b02c-4416-bee5-ec2505a3f8e7","root_ids":["4396"],"roots":{"4396":"909dab04-e540-4d5e-81ab-afe317fd1779"}}];
+                  root.Bokeh.embed.embed_items(docs_json, render_items);
+                
+                  }
+                  if (root.Bokeh !== undefined) {
+                    embed_document(root);
+                  } else {
+                    var attempts = 0;
+                    var timer = setInterval(function(root) {
+                      if (root.Bokeh !== undefined) {
+                        clearInterval(timer);
+                        embed_document(root);
+                      } else {
+                        attempts++;
+                        if (attempts > 100) {
+                          clearInterval(timer);
+                          console.log("Bokeh: ERROR: Unable to run BokehJS code because BokehJS library is missing");
+                        }
+                      }
+                    }, 10, root)
+                  }
+                })(window);
+              });
+            };
+            if (document.readyState != "loading") fn();
+            else document.addEventListener("DOMContentLoaded", fn);
+          })();
+        </script>
+    
+  </body>
+  
+</html>
