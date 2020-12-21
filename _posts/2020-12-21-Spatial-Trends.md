@@ -9,7 +9,8 @@ altair-loader:
 hv-loader:
   hv-chart-1: "charts/chitrend_map.html"
   hv-chart-2: "charts/chichange_map.html"
-  hv-chart-3: "charts/chimonthtrend1.html"
+  hv-chart-3: "charts/nytrend_map.html"
+  hv-chart-4: "charts/nychange_map.html"
 toc: true
 toc_sticky: true
 ---
@@ -20,9 +21,11 @@ This post will show examples of embedding interactive charts produced using [Alt
 
 Below is a chart of the incidence of measles since 1928 for the 50 US states.
 
-<div id="altair-chart-1"></div>
+<div id="hv-chart-1"></div>
 
 This was produced using Altair and embedded in this static web page. Note that you can also display Python code on this page:
+
+<div id="hv-chart-3"></div>
 
 ```python
 import altair as alt
@@ -33,9 +36,11 @@ alt.renderers.enable('notebook')
 
 Lastly, the measles incidence produced using the HvPlot package:
 
-<div id="hv-chart-1"></div>
 <div id="hv-chart-2"></div>
-<div id="hv-chart-3"></div>
+
+Lastly, the measles incidence produced using the HvPlot package:
+
+<div id="hv-chart-4"></div>
 
 ## Notes
 
