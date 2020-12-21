@@ -10,8 +10,8 @@ hv-loader:
   hv-chart-1: "charts/chitrend_map.html"
   hv-chart-2: "charts/chichange_map.html"
   hv-chart-3: "charts/chimonthtrend1.html"
-toc: false
-toc_sticky: false
+toc: true
+toc_sticky: true
 ---
 
 This post will show examples of embedding interactive charts produced using [Altair](https://altair-viz.github.io) and [Hvplot](https://hvplot.pyviz.org/).
