@@ -1,13 +1,13 @@
 ---
-title: "Example: Embedding Altair & Hvplot Charts"
-date: 2019-04-13
+title: "Spatial Trends"
+date: 2020-12-21
 published: true
-tags: [dataviz, altair, hvplot, holoviews]
-excerpt: "Embedding interactive charts on static pages using Jekyll."
+tags: [dataviz, hvplot, holoviews]
+excerpt: "Spatial changes of crash patterns"
 altair-loader:
   altair-chart-1: "charts/measlesAltair.json"
 hv-loader:
-  hv-chart-1: "charts/measlesHvplot.html"
+  hv-chart-1: "charts/chitrend_map.html"
 toc: true
 toc_sticky: true
 ---
