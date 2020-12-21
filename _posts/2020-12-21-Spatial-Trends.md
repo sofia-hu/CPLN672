@@ -7,7 +7,7 @@ excerpt: "Spatial changes of crash patterns"
 altair-loader:
   altair-chart-1: "charts/measlesAltair.json"
 hv-loader:
-  hv-chart-1: "charts/chitrend_map.html"
+  hv-chart-1: ["charts/chitrend_map.html", "600"]
 toc: false
 toc_sticky: false
 ---
