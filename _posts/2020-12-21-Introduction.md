@@ -19,11 +19,13 @@ You'll find this post in your `_posts` directory. Go ahead and edit it and commi
 Jekyll also offers powerful support for code snippets:
 
 ![Chicago 2020]({{ site.url }}{{ site.baseurl }}/assets/images/chi2020hex.png)
+
 ![Chicago before 2020]({{ site.url }}{{ site.baseurl }}/assets/images/chibeforehex.png)
 
 As we compare the above hex bin maps, we can see that there is some difference between 2020 car crash patterns and the 2013-2019 general trends. We shall look deeper into the trends in the following sections. Jekyll also offers powerful support for code snippets:
 
 ![New York 2020]({{ site.url }}{{ site.baseurl }}/assets/images/ny2020hex.png)
+
 ![New York before 2020]({{ site.url }}{{ site.baseurl }}/assets/images/nybeforehex.png)
 
 References:
