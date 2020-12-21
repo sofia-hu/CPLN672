@@ -1,9 +1,9 @@
 ---
-title: "Example: Embedding Matplotlib Images"
-date: 2019-04-17
+title: "General Trends"
+date: 2020-12-21
 published: true
-tags: [dataviz, matplotlib]
-excerpt: "This is an example blog post that embeds a matplotlib image."
+tags: [dataviz, matplotlib, seaborn]
+excerpt: "Non-spatial changes of crash patterns"
 toc: true
 toc_sticky: true
 ---
@@ -16,4 +16,4 @@ This is an example post. The posts are written in markdown.
 
 Below, we show the distance between residential sales and the average distance to the 5 nearest 311 calls for abandoned cars.
 
-![distances-abandoned-cars]({{ site.url }}{{ site.baseurl }}/assets/images/distance_to_abandoned_cars.png)
+![Chicago 2019]({{ site.url }}{{ site.baseurl }}/assets/images/chihourmonth2019.png)
