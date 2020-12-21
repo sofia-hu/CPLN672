@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://rawcdn.githack.com/python-visualization/folium/master/folium/templates/leaflet.awesome.rotate.css"/>
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_2ad10d1fba4e4d38b524c34762d65112 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    
+                    <style>
+                        .foliumtooltip {
+                            
+                        }
+                       .foliumtooltip table{
+                            margin: auto;
+                        }
+                        .foliumtooltip tr{
+                            text-align: left;
+                        }
+                        .foliumtooltip th{
+                            padding: 2px; padding-right: 8px;
+                        }
+                    </style>
+            
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_2ad10d1fba4e4d38b524c34762d65112" ></div>
+        
+</body>
+<script>    
+    
+            var map_2ad10d1fba4e4d38b524c34762d65112 = L.map(
+                "map_2ad10d1fba4e4d38b524c34762d65112",
+                {
+                    center: [41.87158234404478, -87.7254116767643],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 17,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_340fffed15c340bfab90383b512ae428 = L.tileLayer(
+                "https://cartodb-basemaps-{s}.global.ssl.fastly.net/dark_all/{z}/{x}/{y}.png",
+                {"attribution": "\u0026copy; \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eOpenStreetMap\u003c/a\u003e contributors \u0026copy; \u003ca href=\"http://cartodb.com/attributions\"\u003eCartoDB\u003c/a\u003e, CartoDB \u003ca href =\"http://cartodb.com/attributions\"\u003eattributions\u003c/a\u003e", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_2ad10d1fba4e4d38b524c34762d65112);
+        
+    
+        function geo_json_416d78db85a64a98a2b0c7874ee37adc_styler(feature) {
+            switch(feature.id) {
+                case "2": 
+                    return {"color": "#44bf70", "weight": 3};
+                case "3": 
+                    return {"color": "#38598c", "weight": 3};
+                case "5": case "11": 
+                    return {"color": "#287c8e", "weight": 3};
+                case "6": 
+                    return {"color": "#fde725", "weight": 3};
+                case "7": 
+                    return {"color": "#3a538b", "weight": 3};
+                case "8": 
+                    return {"color": "#2f6c8e", "weight": 3};
+                case "9": 
+                    return {"color": "#3fbc73", "weight": 3};
+                case "10": 
+                    return {"color": "#1fa088", "weight": 3};
+                case "14": 
+                    return {"color": "#2e6d8e", "weight": 3};
+                case "16": 
+                    return {"color": "#29798e", "weight": 3};
+                case "20": 
+                    return {"color": "#25848e", "weight": 3};
+                case "27": 
+                    return {"color": "#2b758e", "weight": 3};
+                default:
+                    return {"color": "#440154", "weight": 3};
+            }
+        }
+        function geo_json_416d78db85a64a98a2b0c7874ee37adc_onEachFeature(feature, layer) {
+            layer.on({
+                click: function(e) {
+                    map_2ad10d1fba4e4d38b524c34762d65112.fitBounds(e.target.getBounds());
+                }
+            });
+        };
+        var geo_json_416d78db85a64a98a2b0c7874ee37adc = L.geoJson(null, {
+                onEachFeature: geo_json_416d78db85a64a98a2b0c7874ee37adc_onEachFeature,
+            
+                style: geo_json_416d78db85a64a98a2b0c7874ee37adc_styler,
+        }).addTo(map_2ad10d1fba4e4d38b524c34762d65112);
+
+        function geo_json_416d78db85a64a98a2b0c7874ee37adc_add (data) {
+            geo_json_416d78db85a64a98a2b0c7874ee37adc.addData(data);
+        }
+            geo_json_416d78db85a64a98a2b0c7874ee37adc_add({"features": [{"geometry": {"coordinates": [[-87.7253357, 41.8709383], [-87.7253283, 41.8707175]], "type": "LineString"}, "id": "0", "properties": {"crash_index": null, "name": "South Pulaski Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.7253357, 41.8709383], [-87.7253437, 41.8711791], [-87.725351, 41.871396], [-87.7253592, 41.8716408]], "type": "LineString"}, "id": "1", "properties": {"crash_index": null, "name": "South Pulaski Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.7228697, 41.8707334], [-87.7228572, 41.8702956], [-87.7228442, 41.8698416]], "type": "LineString"}, "id": "2", "properties": {"crash_index": 0.7030549225001425, "name": "South Springfield Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.7228697, 41.8707334], [-87.7235061, 41.8707293], [-87.7253283, 41.8707175]], "type": "LineString"}, "id": "3", "properties": {"crash_index": 0.2752482941569921, "name": "West Polk Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.7253283, 41.8707175], [-87.7253357, 41.8709383]], "type": "LineString"}, "id": "4", "properties": {"crash_index": null, "name": "South Pulaski Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.7253283, 41.8707175], [-87.7253204, 41.8704829], [-87.7253132, 41.8702659], [-87.725305, 41.8700214]], "type": "LineString"}, "id": "5", "properties": {"crash_index": 0.41649858687200075, "name": "South Pulaski Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.7229434, 41.8725739], [-87.7229568, 41.8729164]], "type": "LineString"}, "id": "6", "properties": {"crash_index": 1.0, "name": "South Springfield Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.7229434, 41.8725739], [-87.7247218, 41.8725463]], "type": "LineString"}, "id": "7", "properties": {"crash_index": 0.2546783941459431, "name": "West Flournoy Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.7229434, 41.8725739], [-87.7229282, 41.8721216], [-87.7229127, 41.8716651]], "type": "LineString"}, "id": "8", "properties": {"crash_index": 0.3493991014704731, "name": "South Springfield Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.7253892, 41.8725359], [-87.7254004, 41.8730093]], "type": "LineString"}, "id": "9", "properties": {"crash_index": 0.6880108045691444, "name": "South Pulaski Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.7253892, 41.8725359], [-87.7248679, 41.872544]], "type": "LineString"}, "id": "10", "properties": {"crash_index": 0.5635039490025179, "name": "West Flournoy Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.7253892, 41.8725359], [-87.7253814, 41.872305], [-87.7253741, 41.8720864], [-87.7253659, 41.8718411]], "type": "LineString"}, "id": "11", "properties": {"crash_index": 0.4169703220222427, "name": "South Pulaski Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.725305, 41.8700214], [-87.725298, 41.8698116]], "type": "LineString"}, "id": "12", "properties": {"crash_index": null, "name": "South Pulaski Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.725305, 41.8700214], [-87.7253132, 41.8702659], [-87.7253204, 41.8704829], [-87.7253283, 41.8707175]], "type": "LineString"}, "id": "13", "properties": {"crash_index": null, "name": "South Pulaski Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.7228442, 41.8698416], [-87.7228572, 41.8702956], [-87.7228697, 41.8707334]], "type": "LineString"}, "id": "14", "properties": {"crash_index": 0.35417436889429776, "name": "South Springfield Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.725298, 41.8698116], [-87.725305, 41.8700214]], "type": "LineString"}, "id": "15", "properties": {"crash_index": null, "name": "South Pulaski Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.725298, 41.8698116], [-87.7228442, 41.8698416]], "type": "LineString"}, "id": "16", "properties": {"crash_index": 0.4042687670394302, "name": "West Arthington Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.725298, 41.8698116], [-87.7252895, 41.8695575], [-87.7252819, 41.8693317], [-87.7252738, 41.8690906]], "type": "LineString"}, "id": "17", "properties": {"crash_index": null, "name": "South Pulaski Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.7253659, 41.8718411], [-87.7253592, 41.8716408]], "type": "LineString"}, "id": "18", "properties": {"crash_index": null, "name": "South Pulaski Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.7253659, 41.8718411], [-87.7253741, 41.8720864], [-87.7253814, 41.872305], [-87.7253892, 41.8725359]], "type": "LineString"}, "id": "19", "properties": {"crash_index": null, "name": "South Pulaski Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.7229127, 41.8716651], [-87.7229282, 41.8721216], [-87.7229434, 41.8725739]], "type": "LineString"}, "id": "20", "properties": {"crash_index": 0.45144012201560135, "name": "South Springfield Avenue"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.7253592, 41.8716408], [-87.7253659, 41.8718411]], "type": "LineString"}, "id": "21", "properties": {"crash_index": null, "name": "South Pulaski Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.7253592, 41.8716408], [-87.725351, 41.871396], [-87.7253437, 41.8711791], [-87.7253357, 41.8709383]], "type": "LineString"}, "id": "22", "properties": {"crash_index": null, "name": "South Pulaski Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.7253592, 41.8716408], [-87.7230261, 41.871664], [-87.7229127, 41.8716651]], "type": "LineString"}, "id": "23", "properties": {"crash_index": 0.0, "name": "West Lexington Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.7254004, 41.8730093], [-87.7253892, 41.8725359]], "type": "LineString"}, "id": "24", "properties": {"crash_index": null, "name": "South Pulaski Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.7252738, 41.8690906], [-87.7252819, 41.8693317], [-87.7252895, 41.8695575], [-87.725298, 41.8698116]], "type": "LineString"}, "id": "25", "properties": {"crash_index": null, "name": "South Pulaski Road"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.7247218, 41.8725463], [-87.7229434, 41.8725739]], "type": "LineString"}, "id": "26", "properties": {"crash_index": null, "name": "West Flournoy Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.7248679, 41.872544], [-87.7253892, 41.8725359]], "type": "LineString"}, "id": "27", "properties": {"crash_index": 0.3890636721995955, "name": "West Flournoy Street"}, "type": "Feature"}, {"geometry": {"coordinates": [[-87.7229568, 41.8729164], [-87.7229434, 41.8725739]], "type": "LineString"}, "id": "28", "properties": {"crash_index": null, "name": "South Springfield Avenue"}, "type": "Feature"}], "type": "FeatureCollection"});
+        
+    
+    geo_json_416d78db85a64a98a2b0c7874ee37adc.bindTooltip(
+    function(layer){
+    let div = L.DomUtil.create('div');
+    
+    let handleObject = feature=>typeof(feature)=='object' ? JSON.stringify(feature) : feature;
+    let fields = ["name", "crash_index"];
+    let aliases = ["name", "crash_index"];
+    let table = '<table>' +
+        String(
+        fields.map(
+        (v,i)=>
+        `<tr>
+            <th>${aliases[i]}</th>
+            
+            <td>${handleObject(layer.feature.properties[v])}</td>
+        </tr>`).join(''))
+    +'</table>';
+    div.innerHTML=table;
+    
+    return div
+    }
+    ,{"className": "foliumtooltip", "sticky": true});
+                     
+</script>
