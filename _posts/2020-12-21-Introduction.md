@@ -18,15 +18,14 @@ You'll find this post in your `_posts` directory. Go ahead and edit it and commi
 
 Jekyll also offers powerful support for code snippets:
 
-```python
-def print_message(message):
-  print(message)
+![Chicago 2020]({{ site.url }}{{ site.baseurl }}/assets/images/chi2020hex.png)
+![Chicago before 2020]({{ site.url }}{{ site.baseurl }}/assets/images/chibeforehex.png)
 
-print_message("Welcome to GitHub Pages")
-```
+As we compare the above hex bin maps, we can see that there is some difference between 2020 car crash patterns and the 2013-2019 general trends. We shall look deeper into the trends in the following sections. Jekyll also offers powerful support for code snippets:
 
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll.
+![New York 2020]({{ site.url }}{{ site.baseurl }}/assets/images/ny2020hex.png)
+![New York before 2020]({{ site.url }}{{ site.baseurl }}/assets/images/nybeforehex.png)
 
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]: https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+References:
+- NYC Open Data, [Motor Vehicle Collisions - Crashes](https://data.cityofnewyork.us/Public-Safety/Motor-Vehicle-Collisions-Crashes/h9gi-nx95/data)
+- Chicago Data Portal, [Traffic Crashes - Crashes](https://data.cityofchicago.org/Transportation/Traffic-Crashes-Crashes-Dashboard/8tdq-a5dp)
