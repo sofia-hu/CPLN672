@@ -6,7 +6,7 @@ categories:
 tags:
   - Github Page
   - Matplotlib
-  excerpt: "Background information of the project"
+excerpt: "Background information of the project"
 ---
 
 The pandemic is changing people’s travelling patterns, but it is not just about traffic volume. In most US cities, traffic dropped during the pandemic due to stay home orders and remote working, but the traffic patterns also changed. For instance, ridership on public transportation has decreased more significantly compared to private cars. In addition, there was a spike in traffic deaths and injuries in some cities.
